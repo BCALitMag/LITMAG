@@ -13,8 +13,9 @@ body {
 .insta{
     width: 20px;
     height: 20px;
-    position: relative;
+    position: sticky;
     text-align: right;
+    left: 1400px;
 }
 
 .SITE_HEADER {
@@ -62,6 +63,24 @@ body {
     width: 100%;
     min-width: 1000px;
     background-color: aliceblue;
+}
+
+.new-edition-cover {
+    position: relative;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.columns1 {
+    column-count: 2;
+    column-gap: 200px;
+}
+
+.looking {
+    position: relative;
+    right: 0;
+    background-color: red;
 }
 
 .logo1 {
