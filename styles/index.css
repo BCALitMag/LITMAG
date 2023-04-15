@@ -54,6 +54,7 @@ body {
     padding: 15px 32px;
     text-decoration: none;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .new-edition {
@@ -63,6 +64,7 @@ body {
     width: 100%;
     min-width: 1000px;
     background-color: aliceblue;
+    margin-bottom: 30px;
 }
 
 .new-edition-cover {
@@ -79,8 +81,10 @@ body {
 
 .looking {
     position: relative;
+    top: 560px;
     right: 0;
-    background-color: red;
+    background-color: rgb(181, 183, 183);
+    padding: 150px 450px;
 }
 
 .logo1 {
