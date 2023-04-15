@@ -1,6 +1,6 @@
 body {
     margin:initial;
-    background-image: url("linedpaper.avif");
+    background-image: url("linedpaper1.png");
     background-color: bisque;
     font-family: Arial,Helvetica,sans-serif;
 }
@@ -28,12 +28,13 @@ body {
 }
 
 .linedpaper {
-    position:fixed;
+    position:relative;
     top: 0;
     right: 0;
     width: 100%;
     min-width: 1000px;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom:-200px;
 }
 
 .head1 {
@@ -47,7 +48,7 @@ body {
     position: relative;
     top: 240px;
     text-align: center;
-    background-color: rgb(113, 113, 226);
+    background-color: rgb(104, 104, 112);
     color: white;
     padding: 15px 32px;
     text-decoration: none;
