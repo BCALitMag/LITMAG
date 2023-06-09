@@ -1,8 +1,8 @@
 body {
     margin:initial;
-    background-image: url("litmag-main.svg"); /**this could be done later after everything is done but rn the svg files cut off for some reason butapowehfioawhf **/
+    background-image: url("brownPaperBG.png"); /**this could be done later after everything is done but rn the svg files cut off for some reason butapowehfioawhf **/
     background-color: bisque;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: ligurino, sans-serif;
 }
 .a1 {
     text-decoration: none;
@@ -34,25 +34,37 @@ body {
     right: 0;
     width: 100%;
     min-width: 1000px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: ligurino, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     margin-bottom:-200px;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .head1 {
     font-size: 90px;
     position: relative;
-    top: 200px;
+    top: 350px;
     text-align: center;
 }
 
 .button {
     position: relative;
-    top: 240px;
+    /* top: 140px; */
     text-align: center;
-    background-color: rgb(104, 104, 112);
-    color: white;
+    /* background-color: rgb(104, 104, 112); */
+    background-color: transparent;
+    color: black;
     padding: 15px 32px;
     text-decoration: none;
+    border: 2px solid black;
     font-size: 16px;
 }
 
@@ -80,7 +92,7 @@ body {
 
 .looking {
     position: relative;
-    top: 560px;
+    top: 760px;
     right: 0;
     background-color: rgb(181, 183, 183);
     padding: 150px 450px;
