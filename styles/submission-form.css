@@ -1,6 +1,7 @@
 body {
     margin:initial;
-    background-image: url("brownPaperBG.png"); /**this could be done later after everything is done but rn the svg files cut off for some reason butapowehfioawhf **/
+    background-image: url("brownPaperBG.png");
+    background-size: cover;
     background-color: bisque;
     font-family: ligurino, sans-serif;
 }
@@ -30,15 +31,13 @@ body {
 
 .linedpaper {
     position:relative;
-    top: 0;
-    right: 0;
     width: 100%;
-    min-width: 1000px;
+    height: 100%;
     font-family: ligurino, sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-bottom:-200px;
 }
+
 .center {
     margin: 0;
     position: absolute;
@@ -68,36 +67,6 @@ body {
     font-size: 25px;
 }
 
-.new-edition {
-    position: relative;
-    top: 600px;
-    right: 0;
-    width: 100%;
-    min-width: 1000px;
-    background-color: aliceblue;
-    margin-bottom: 30px;
-}
-
-.new-edition-cover {
-    position: relative;
-    height: 500px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.columns1 {
-    column-count: 2;
-    column-gap: 200px;
-}
-
-.looking {
-    position: relative;
-    top: 760px;
-    right: 0;
-    background-color: rgb(181, 183, 183);
-    padding: 150px 450px;
-}
-
 .logo1 {
     width: 150px;
     height:100px;
@@ -110,7 +79,27 @@ body {
     font-size: smaller;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .boat {
+    background-image: url('submissionForm/boat.png');
+    position: absolute;
+    bottom: -200px;
     mix-blend-mode: multiply;
+    width: 25%;
+    height: 25%;
+}
+
+.street {
+    mix-blend-mode: multiply;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 25%;
 }
   
