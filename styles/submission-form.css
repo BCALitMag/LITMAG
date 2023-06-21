@@ -66,6 +66,11 @@ body {
     border: 2px solid black;
     font-size: 25px;
 }
+.button:hover {
+    color: white;
+    background-color: black;
+
+}
 
 .logo1 {
     width: 150px;

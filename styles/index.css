@@ -47,13 +47,20 @@ body {
 
 .button {
     position: relative;
-    top: 240px;
+    /* top: 140px; */
     text-align: center;
-    background-color: rgb(104, 104, 112);
-    color: white;
+    /* background-color: rgb(104, 104, 112); */
+    background-color: transparent;
+    color: black;
     padding: 15px 32px;
     text-decoration: none;
-    font-size: 16px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.button:hover {
+    color: white;
+    background-color: black;
+
 }
 
 .new-edition {
