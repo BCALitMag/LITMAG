@@ -87,24 +87,6 @@ body {
 .container {
     position: relative;
     text-align: center;
-    color: white;
-}
-
-.boat {
-    background-image: url('submissionForm/boat.png');
-    position: absolute;
-    bottom: -200px;
-    mix-blend-mode: multiply;
-    width: 25%;
-    height: 25%;
-}
-
-.street {
-    mix-blend-mode: multiply;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    bottom: 0px;
-    width: 25%;
+    mix-blend-mode: multiply
 }
   
