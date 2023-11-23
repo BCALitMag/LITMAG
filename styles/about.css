@@ -1,7 +1,7 @@
 body {
-    margin: 5%;
-    background-color: rgb(172, 172, 172);
-    font-family: Arial,Helvetica,sans-serif;
+    margin:initial;
+    background-color: rgb(185, 180, 222);
+    font-family: ligurino, sans-serif;
 }
 .a1 {
     text-decoration: none;
@@ -12,8 +12,9 @@ body {
 .insta{
     width: 20px;
     height: 20px;
-    position: relative;
+    position: sticky;
     text-align: right;
+    left: 1400px;
 }
 
 .SITE_HEADER {
@@ -36,8 +37,9 @@ body {
 
 .head1 {
     font-size: 90px;
+    font-weight: 700;
     position: relative;
-    top: 120px;
+    top: 200px;
     text-align: center;
 }
 

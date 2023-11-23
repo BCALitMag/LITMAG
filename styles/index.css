@@ -65,7 +65,7 @@ body {
 
 .new-edition {
     position: relative;
-    top: 600px;
+    top: 350px;
     right: 0;
     width: 100%;
     min-width: 1000px;
@@ -91,7 +91,7 @@ body {
 
 .looking {
     position: relative;
-    top: 560px;
+    top: 320px;
     right: 0;
     background-color: rgb(181, 183, 183);
     padding: 150px 450px;
